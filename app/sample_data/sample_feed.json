@@ -1,0 +1,30 @@
+{
+  "source": "sample-lab-feed",
+  "generated_at": "2025-11-15T08:00:00Z",
+  "items": [
+    {
+      "id": "item-1",
+      "title": "Critical remote code execution vulnerability in Apache Struts",
+      "description": "A critical remote code execution (RCE) vulnerability (CVE-2025-12345) was identified in Apache Struts affecting versions 2.5.0 through 2.5.32. An unauthenticated attacker can send a specially crafted request to execute arbitrary code on the server. Exploitation has been observed in the wild, primarily targeting public-facing Linux servers running vulnerable Struts applications.",
+      "source": "lab-advisory",
+      "published_at": "2025-11-14T10:30:00Z",
+      "url": "https://example.com/advisory/struts-rce"
+    },
+    {
+      "id": "item-2",
+      "title": "New ransomware campaign targeting exposed VPN appliances",
+      "description": "Security researchers have observed a new ransomware campaign targeting unpatched VPN appliances from multiple vendors. Attackers use known vulnerabilities to gain initial access and then deploy ransomware within hours. The campaign focuses on organizations that expose VPN gateways directly to the internet without MFA. Windows and Linux servers accessed through these VPNs may also be impacted.",
+      "source": "research-blog",
+      "published_at": "2025-11-13T16:00:00Z",
+      "url": "https://example.com/blog/vpn-ransomware"
+    },
+    {
+      "id": "item-3",
+      "title": "Phishing campaign using fake MFA reset emails",
+      "description": "A large-scale phishing campaign is using fake multi-factor authentication (MFA) reset emails to trick users into entering credentials into lookalike portals. The emails claim that the user's MFA device is being deactivated and ask them to log in to re-enroll. Once credentials are entered, attackers attempt to bypass conditional access policies and perform business email compromise.",
+      "source": "threat-intel",
+      "published_at": "2025-11-12T09:45:00Z",
+      "url": "https://example.com/intel/mfa-phish"
+    }
+  ]
+}

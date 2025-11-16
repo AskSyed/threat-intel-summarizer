@@ -1,0 +1,5 @@
+[project]
+name = "threat-intel-summarizer"
+version = "0.1.0"
+description = "Threat Intelligence Summarizer using LangGraph and Guardrails"
+requires-python = ">=3.11"

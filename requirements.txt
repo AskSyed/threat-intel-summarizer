@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langgraph
+httpx
+pydantic
+langgraph-prebuilt
+langchain-core
+langchain-community
+langchain-openai
+langgraph-cli[inmem]

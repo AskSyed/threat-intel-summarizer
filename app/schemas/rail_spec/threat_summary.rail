@@ -1,0 +1,17 @@
+<rail version="0.3">
+  <output>
+    <object name="ThreatSummary">
+      <string name="title" required="true" />
+      <string name="threat_type" required="true" />
+      <string name="severity" required="true" />
+      <string name="summary" required="true" />
+      <list name="affected_products">
+        <string />
+      </list>
+      <string name="recommended_action" required="true" />
+      <string name="cve_id" required="false" />
+      <string name="source" required="false" />
+      <string name="published_at" required="false" />
+    </object>
+  </output>
+</rail>

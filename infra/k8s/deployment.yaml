@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: threat-intel-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: threat-intel-api
+  template:
+    metadata:
+      labels:
+        app: threat-intel-api
+    spec:
+      containers:
+        - name: api
+          image: your-registry/threat-intel-api:latest
+          ports:
+            - containerPort: 8000
