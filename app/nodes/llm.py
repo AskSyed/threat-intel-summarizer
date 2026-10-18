@@ -1,8 +1,10 @@
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
 
+from app.config.settings import settings
+
 # Shared LLM instance
-llm = ChatOpenAI(model="gpt-4o", temperature=0)
+llm = ChatOpenAI(model="gpt-4o", temperature=0, api_key=settings.openai_api_key)
 
 # Global system prompt
 SYSTEM_PROMPT = """You are a cybersecurity analyst specializing in threat intelligence. 

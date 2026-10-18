@@ -1,5 +1,9 @@
+from dotenv import load_dotenv
 from fastapi import FastAPI
-from app.flows import build_threat_flow
+
+load_dotenv()
+
+from app.flows import build_threat_flow  # noqa: E402
 
 app = FastAPI(title="Threat Intelligence Summarizer")
 
